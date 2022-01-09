@@ -36,6 +36,32 @@ str(tg7)
 As we can see, there are 1309 rows and 21 columns with their class type and first few okf the observations.
 Also, we observe that there are many rows in which there is no data present. Therefore we will first check that.
 
+# Questions
+1) How many people of age less than 18 survived?
+2) How many males boarded the  ship from England?
+3) How many people from each class survived?
+4) What was the median age of males who couldn't survive the wreck?
+5) How many complete family members couldn't survive the wreck?
+6) Is there any relationship between class and age of males ?
+7) What is the median age of passengers who boarded from Southampton , Queenstown, Cherboug?
+8) Which country among canada, US , mexico had the largest numbers of passengers destination?
+9) What was the average fare price for males that boarded the titanic?
+10) How many passengers are going back home? (hometown and destination same.
+11) How many first class males aged less than 18 couldn't survive the wreck?
+12) What was the median age of males who were travelling with spouse or siblings?
+13) How many passengers having sibling or spouse survived the wreck?
+14) How many passengers who boarded from Southampthon were traveling with a parent or child ?
+15) Number of US States as destination for passengers
+16) What is the average age of survivors and non - survivors ?
+17) How many passengers on the ship were male teenagers ?
+18) Which class of passengers had the highest survival rate?
+19) What was the average fare of passengers traveling with a sibling or spouse ?
+20) Which class was prefered by passengers traveling with a family? (SIBSP and Parch).
+21) Most male passengers from which class survived the wreck?
+22) 
+
+
+
 ```{r}
 colSums(is.na(tg7))
 ```
