@@ -1,0 +1,47 @@
+---
+title: "Titanic Assignment Group 7"
+author: "Amit Jaiswal, Riddhiman Debnath, Zaid Firoz"
+date: "09/01/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Here we would be analysing the Titanic dataset and answer 20 basic questions in order to get some insights.
+
+First we will read the titanic dataset:
+
+```{r}
+tg7 = read.csv("titanic_full.csv")
+```
+
+Let's go through the basic details of the dataset.
+
+```{r}
+#head and tail
+head(tg7)
+tail(tg7)
+
+#number of column and rows
+nrow(tg7)
+ncol(tg7)
+
+#basic structure
+str(tg7)
+
+```
+
+As we can see, there are 1309 rows and 21 columns with their class type and first few okf the observations.
+Also, we observe that there are many rows in which there is no data present. Therefore we will first check that.
+
+```{r}
+colSums(is.na(tg7))
+```
+
+
+
+
+
+
